@@ -1,0 +1,14 @@
+.App {
+  overflow-x: hidden !important;
+  overflow-y: hidden;
+}
+
+.message-part {
+  border: 0.8px solid rgba(128, 128, 128, 0.559);
+  margin: 4px;
+}
+
+.message-part:nth-child(even) {
+  display: flex;
+  flex-direction: row-reverse;
+}
